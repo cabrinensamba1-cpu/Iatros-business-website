@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Semantic Elements :They tell what kind of content is inside them-->
+    <!-- Navbar :define a section for the navigation links-->
+
+    <!-- represents the header section of a page -->
+    <nav>
+        <!-- site logo -->
+
+        <!-- used  to display images on the web -->
+        <!-- <img></img> this is wrong -->
+
+        <ul>
+            <nav style="background-color: rgb(14, 14, 63);">
+                <img src="images/Creative_Emblem_Healthcare_Logo_for_IATROS_20251030_141645_0000-removebg-preview.png"
+                    width="100" height="100" alt="logo">
+                <li> <a href="/index.html">Home</a></li>
+                <li> <a href="/about-us.html">About Us</a></li>
+                <li> <a href="/services.html">Services</a></li>
+                <li> <a href="/contact-us.html">Contact us</a></li>
+            </nav>
+
+        </ul>
+
+    </nav>
+
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>Send us a message using the form below, or reach out through other methods.</p>
+
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="other-contact-info">
+            <h3>Other Ways to Connect</h3>
+            <p>Phone: +256740683123</p>
+            <p>Email:info@ypd.co.ug </p>
+            <div class="social-links">
+                <!-- Social media icons/links here -->
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- About / Logo -->
+            <div class="footer-about">
+                <h3>IATROS</h3>
+                <p>Bringing trusted healthcare directly to your home. Certified professionals available 24/7.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Ntinda, Matrys way</p>
+                <p><i class="fas fa-phone-alt"></i> +256 740683123</p>
+                <p><i class="fas fa-envelope"></i> info@ypd.co.ug</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Mobile Doctors. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
